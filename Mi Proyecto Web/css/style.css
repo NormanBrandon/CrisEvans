@@ -1,0 +1,69 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	background-color: #4C1717;
+}
+h1{
+   font-family: 'Gugi', cursive;
+
+   color: #FFFFFF;
+}
+header{
+	background-color: rgb(28,58,64);
+	margin: 0px;
+	padding: 0px;
+
+}
+h1,h2{
+	text-align: center;
+	padding-top: 20px;
+}
+nav ul li,footer ul li{
+	display: inline;
+	font-family: 'Gugi', cursive;
+   
+}
+ul{
+	list-style: none; 
+}
+nav a{
+	display:inline-block;
+	/*px, %*/
+	width: 100px;
+	height: 20px;
+	text-decoration: none;
+	background-color: #BB4890;
+	color:#281626;
+
+}
+img{
+	width: 45%;
+}
+.informacion-personal{
+	text-align: center;
+	width: 45%;
+}
+li:hover a{
+	background-color: 	#B41497;
+}
+footer{
+	font-family: 'Gugi';
+	height: 120px;
+	background: grey; 
+
+}
+section .premios{
+	width: 60%;
+	font-family: 'Gugi';
+	background-color: 	#B41497;	
+}
+table,th,td{
+	border: 2px solid rgb(28,58,64);
+	border-collapse: collapse;
+}
+section.bibliografia{
+	color: #F8E9E9;
+	text-align: justify,center;
+
+}
